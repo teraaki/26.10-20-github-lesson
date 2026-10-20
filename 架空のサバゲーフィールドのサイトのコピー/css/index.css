@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+/* ショートカットキー */
+:root {
+  --colorGray01: #f2f2f2;
+  --colorGray02: #aeaeae;
+  --colorGray03: #6d6d6d;
+}
+
+/* メイン */
+
+.first-view {
+  background-image: url(../img/toppage_first_view1.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-view-text h1 {
+  font-family: "Share Tech Mono", monospace;
+  text-align: center;
+  margin-top: 30vh;
+  font-size: 75px;
+  line-height: 1.5;
+  color: #b8b8b8;
+  text-shadow: 0 2px 20px #000;
+}
+
+.tokutyou {
+  max-width: 960px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+
+.tokutyou-title h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 80px;
+}
+
+.tokutyou-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 20px auto;
+}
+
+.tokutyou-1,
+.tokutyou-2,
+.tokutyou-3 {
+  width: 300px;
+  padding: 20px;
+  background-color: var(--colorGray01);
+  border-radius: 8px;
+}
+
+.tokutyou-list h3 {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.tokutyou-list p {
+  margin: 10px 20px;
+  padding-top: 15px;
+}
+
+.under-menu {
+  max-width: 960px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.under-menu-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 960px;
+}
+
+.beginner,
+.price,
+.access {
+  width: 300px;         
+  background-color: var(--colorGray01);
+  padding: 20px 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.under-menu-title h2 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.under-menu-list h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.under-menu-list a {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 25px;
+  padding: 15px 30px;
+}
+
+.beginner img,
+.price img,
+.access img {
+  width: 200px;
+  margin-bottom: 20px;
+}

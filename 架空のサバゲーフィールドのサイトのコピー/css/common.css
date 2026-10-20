@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/* 初期設定 */
+* ,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 16px;
+  color: #000;
+  line-height: 1;
+  background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* ショートカットキー */
+:root {
+  --colorGray01: #f2f2f2;
+  --colorGray02: #aeaeae;
+  --colorGray03: #6d6d6d;
+}
+
+/* ヘッダー */
+.header {
+  width: 100%;
+  background-color: var(--colorGray01);
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  display: inline-block;
+  height: 100%;
+}
+
+.header-logo img {
+  height: 100%;
+  width: auto;
+}
+
+.header-site-menu ul {
+  display: flex;
+}
+
+.header-site-menu li {
+  margin-left: 25px;
+  padding-right: 5px;
+}
+
+/* フッター */
+
+.footer {
+  width: 100%;
+  background-color: var(--colorGray03);
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-site-menu ul {
+  display: flex;
+}
+
+.footer-site-menu ul li {
+  width: 150px;
+  text-align: center;
+  font-size: 20px;
+  margin: 0 30px;
+  padding: 5px;
+}
+
+.footer-logo img {
+  display: block;
+  margin: 20px;
+  margin-top: 40px;
+  width: 250px;
+}
+
+.footer-time {
+  text-align: center;
+}
+
+.copyright {
+  margin-top: 25px;
+}
+
